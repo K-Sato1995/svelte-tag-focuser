@@ -35,4 +35,4 @@ Initial release of Svelte Tag Focuser.
 Issues and PRs are always welcome.
 ## License
 
-This extension is licensed under the [MIT License](LICENSE).
+This extension is licensed under the [MIT License](https://github.com/K-Sato1995/svelte-tag-focuser/blob/main/LICENSE).
