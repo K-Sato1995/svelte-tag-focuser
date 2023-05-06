@@ -1,6 +1,6 @@
 {
-  "name": "svelte-split-view",
-  "displayName": "svelte-split-view",
+  "name": "svelte-tag-focuser",
+  "displayName": "svelte-tag-focuser",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -13,18 +13,28 @@
   "contributes": {
     "commands": [
       {
-        "command": "svelte-split-view.split",
-        "title": "split"
+        "command": "svelte-tag-focuser.focusScript",
+        "title": "Focus on Script (Svelte)"
+      },
+      {
+          "command": "svelte-tag-focuser.focusStyle",
+          "title": "Focus on Style (Svelte)"
       }
     ],
-    "views": {
-      "explorer": [
-        {
-          "id": "svelteView",
-          "name": "Svelte View"
-        }
-      ]
-    }
+    "keybindings": [
+      {
+        "command": "svelte-tag-focuser.focusOnScript",
+        "key": "ctrl+shift+s",
+        "mac": "cmd+shift+s",
+        "when": "editorTextFocus && editorLangId == svelte"
+      },
+      {
+          "command":  "svelte-tag-focuser.focusOnStyle",
+          "key": "ctrl+shift+t",
+          "mac": "cmd+shift+t",
+          "when": "editorTextFocus && editorLangId == svelte"
+      }
+   ]
   },
   "scripts": {
     "vscode:prepublish": "npm run package",

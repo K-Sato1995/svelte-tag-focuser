@@ -1,6 +1,6 @@
-# svelte-split-view README
+# svelte-tag-focuser README
 
-This is the README for your extension "svelte-split-view". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "svelte-tag-focuser". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
