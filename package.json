@@ -13,11 +13,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "svelte-tag-focuser.focusScript",
+        "command": "svelte-tag-focuser.focusOnScript",
         "title": "Focus on Script (Svelte)"
       },
       {
-          "command": "svelte-tag-focuser.focusStyle",
+          "command": "svelte-tag-focuser.focusOnStyle",
           "title": "Focus on Style (Svelte)"
       }
     ],
