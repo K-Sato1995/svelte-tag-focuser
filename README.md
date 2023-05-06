@@ -3,6 +3,8 @@
 
 VS Code extension that provides a quick and easy way to navigate to the script and style tags in your Svelte files.
 
+![svelte-tag-focuser](https://user-images.githubusercontent.com/32632542/236613577-0553a995-40ee-45eb-b127-2509dd331f0e.gif)
+
 ## Features
 
 - Focus on script tag: jump to the script tag of the Svelte component you're currently editing
