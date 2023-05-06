@@ -1,71 +1,45 @@
-# svelte-tag-focuser README
 
-This is the README for your extension "svelte-tag-focuser". After writing up a brief description, we recommend including the following sections.
+# Svelte Tag Focuser
+
+VS Code extension that provides a quick and easy way to navigate to the script and style tags in your Svelte files.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Focus on script tag: jump to the script tag of the Svelte component you're currently editing
+- Focus on style tag: jump to the style tag of the Svelte component you're currently editing
+- Key bindings: use the `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (Mac) key binding to quickly focus on the script or style tag
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+To use the Svelte Tag Focuser extension, simply open a Svelte file in VS Code and activate the extension using one of the following methods:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Click on the Svelte Tag Focuser button in the status bar
+- Use the `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (Mac) key binding
+
+Once the extension is activated, you can use the "Focus on Script" and "Focus on Style" commands to jump to the script or style tag of the Svelte component you're currently editing.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension requires the Svelte language support extension to be installed in VS Code.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not currently have any configurable settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+There are currently no known issues with this extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Initial release of Svelte Tag Focuser.
 
-### 1.0.1
+## Feedback and Contributions
 
-Fixed issue #.
+If you have any feedback, suggestions, or issues with this extension, please feel free to submit them on the [GitHub repository](https://github.com/your-username/svelte-tag-focuser). Contributions are also welcome – if you'd like to contribute to this extension, please check the [contribution guidelines](CONTRIBUTING.md) for more information.
 
-### 1.1.0
+## License
 
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension is licensed under the [MIT License](LICENSE).
