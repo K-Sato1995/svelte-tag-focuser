@@ -1,6 +1,7 @@
 {
   "name": "svelte-tag-focuser",
   "displayName": "svelte-tag-focuser",
+  "publisher": "K-Sato",
   "description": "VS Code extension that provides a quick and easy way to navigate to the script and style tags in your Svelte files.",
   "repository": {
     "type": "git",
@@ -13,6 +14,17 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "svelte",
+    "vscode",
+    "tag",
+    "focus"
+  ],
+  "icon": "svelte-focus-icon.png",
+  "bugs": {
+    "url": "https://github.com/K-Sato1995/svelte-tag-focuser/issues"
+  },
+  "homepage": "https://github.com/K-Sato1995/svelte-tag-focuser#readme",
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
