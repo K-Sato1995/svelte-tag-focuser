@@ -5,20 +5,12 @@ VS Code extension that provides a quick and easy way to navigate to the script a
 
 ![svelte-tag-focuser](https://user-images.githubusercontent.com/32632542/236613577-0553a995-40ee-45eb-b127-2509dd331f0e.gif)
 
-## Features
-
-- Focus on script tag: jump to the script tag of the Svelte component you're currently editing
-- Focus on style tag: jump to the style tag of the Svelte component you're currently editing
-- Key bindings: use the `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (Mac) key binding to quickly focus on the script or style tag
-
 ## Usage
 
-To use the Svelte Tag Focuser extension, simply open a Svelte file in VS Code and activate the extension using one of the following methods:
-
-- Click on the Svelte Tag Focuser button in the status bar
-- Use the `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (Mac) key binding
-
-Once the extension is activated, you can use the "Focus on Script" and "Focus on Style" commands to jump to the script or style tag of the Svelte component you're currently editing.
+- Focus on script tag: `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (Mac)
+  - or Click `CMD+Shift+P` and type `Focus on Script (Svelte)`
+- Focus on style tag: `Ctrl+Shift+T` (Windows/Linux) or `Cmd+Shift+T` (Mac)
+  - or Click `CMD+Shift+P` and type `Focus on Style (Svelte)`
 
 ## Requirements
 
@@ -40,8 +32,7 @@ Initial release of Svelte Tag Focuser.
 
 ## Feedback and Contributions
 
-If you have any feedback, suggestions, or issues with this extension, please feel free to submit them on the [GitHub repository](https://github.com/your-username/svelte-tag-focuser). Contributions are also welcome – if you'd like to contribute to this extension, please check the [contribution guidelines](CONTRIBUTING.md) for more information.
-
+Issues and PRs are always welcome.
 ## License
 
 This extension is licensed under the [MIT License](LICENSE).
