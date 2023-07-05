@@ -21,7 +21,7 @@ async function focusHTML(editor: vscode.TextEditor): Promise<void> {
         const position = editor.document.positionAt(match.index + match[0].length);
         const range = new vscode.Range(position, position);
         editor.revealRange(range, vscode.TextEditorRevealType.AtTop);
-        editor.selection = new vscode.Selection(startPosition, startPosition);
+        editor.selection = new vscode.Selection(position, position);
     }
 }
 
@@ -39,7 +39,7 @@ export function activate(context: vscode.ExtensionContext) {
     let htmlCommand = vscode.commands.registerCommand('svelte-tag-focuser.focusOnHTML', () => {
         const activeEditor = vscode.window.activeTextEditor;
         if (activeEditor) {
-            foucsHTML(activeEditor);
+            focusHTML(activeEditor);
         }
     });
 

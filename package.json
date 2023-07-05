@@ -37,8 +37,8 @@
         "title": "Focus on HTML (Svelte)"
       },
       {
-          "command": "svelte-tag-focuser.focusOnStyle",
-          "title": "Focus on Style (Svelte)"
+        "command": "svelte-tag-focuser.focusOnStyle",
+        "title": "Focus on Style (Svelte)"
       }
     ],
     "keybindings": [
@@ -55,12 +55,12 @@
         "when": "editorTextFocus && editorLangId == svelte"
       },
       {
-          "command":  "svelte-tag-focuser.focusOnStyle",
-          "key": "ctrl+shift+t",
-          "mac": "cmd+shift+t",
-          "when": "editorTextFocus && editorLangId == svelte"
+        "command": "svelte-tag-focuser.focusOnStyle",
+        "key": "ctrl+shift+t",
+        "mac": "cmd+shift+t",
+        "when": "editorTextFocus && editorLangId == svelte"
       }
-   ]
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
