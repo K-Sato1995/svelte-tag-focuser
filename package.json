@@ -33,6 +33,10 @@
         "title": "Focus on Script (Svelte)"
       },
       {
+        "command": "svelte-tag-focuser.focusOnHTML",
+        "title": "Focus on HTML (Svelte)"
+      },
+      {
           "command": "svelte-tag-focuser.focusOnStyle",
           "title": "Focus on Style (Svelte)"
       }
@@ -42,6 +46,12 @@
         "command": "svelte-tag-focuser.focusOnScript",
         "key": "ctrl+shift+s",
         "mac": "cmd+shift+s",
+        "when": "editorTextFocus && editorLangId == svelte"
+      },
+      {
+        "command": "svelte-tag-focuser.focusOnHTML",
+        "key": "ctrl+shift+h",
+        "mac": "cmd+shift+h",
         "when": "editorTextFocus && editorLangId == svelte"
       },
       {
