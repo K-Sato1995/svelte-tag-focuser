@@ -9,8 +9,11 @@ VS Code extension that provides a quick and easy way to navigate to the script a
 
 - Focus on script tag: `Ctrl+Shift+S` (Windows/Linux) or `Cmd+Shift+S` (Mac)
   - or Click `CMD+Shift+P` and type `Focus on Script (Svelte)`
+- Focus on style tag: `Ctrl+Shift+H` (Windows/Linux) or `Cmd+Shift+H` (Mac)
+  - or Click `CMD+Shift+P` and type `Focus on Style (Svelte)`
 - Focus on style tag: `Ctrl+Shift+T` (Windows/Linux) or `Cmd+Shift+T` (Mac)
   - or Click `CMD+Shift+P` and type `Focus on Style (Svelte)`
+  
 
 ## Requirements
 
@@ -25,6 +28,10 @@ This extension does not currently have any configurable settings.
 There are currently no known issues with this extension.
 
 ## Release Notes
+
+### 1.0.2
+
+- [Added feature to focus on the HTML portion within Svelte code](https://github.com/K-Sato1995/svelte-tag-focuser/pull/1)
 
 ### 1.0.0
 
